@@ -1,4 +1,5 @@
-FROM alpine:3.10
+ARG ARCH=library
+FROM $ARCH/alpine:3.10
 
 LABEL maintainer="docker@upshift.fr"
 
